@@ -1,89 +1,96 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=<!DOCTYPE html>
-    <html lang="id">
-    <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-      <title>Profil Tugas</title>
-      <style>
-        body {
-          margin: 0;
-          font-family: Arial, sans-serif;
-          background-color: #f1f3f5;
-        }
-        .header {
-          background-color: #4a90e2;
-          color: white;
-          text-align: center;
-          padding: 40px 20px;
-        }
-        .header img {
-          width: 100px;
-          height: 100px;
-          object-fit: cover;
-          border-radius: 50%;
-          margin-bottom: 10px;
-          border: 3px solid white;
-        }
-        .header h1 {
-          margin: 10px 0 5px;
-        }
-        .header p {
-          margin: 5px 0;
-        }
-        .container {
-          max-width: 700px;
-          margin: 20px auto;
-          padding: 0 20px;
-        }
-        .card {
-          background-color: white;
-          padding: 15px 20px;
-          margin-bottom: 15px;
-          border-radius: 10px;
-          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
-        .card h3 {
-          margin: 0 0 8px;
-        }
-      </style>
-    </head>
-    <body>
-      <div class="header">
-        <img src="Yuni01.jpg" alt="Foto Profil" />
-        <h1>Nama Anda</h1>
-        <p><strong>NIM:</strong> 231110029</p>
-        <p><strong>Nama:</strong> Yuliana Benga Ola</p>
-        <p>TUGAS PENAMBAHAN NILAI UTS.</p>
-      </div>
-    
-      <div class="container">
-        <div class="card">
-          <h3>Tugas 1</h3>
-          <p>Deskripsi singkat tugas 1.</p>
-        </div>
-        <div class="card">
-          <h3>Tugas 2</h3>
-          <p>Deskripsi singkat tugas 2.</p>
-        </div>
-        <div class="card">
-          <h3>Tugas 3</h3>
-          <p>Deskripsi singkat tugas 3.</p>
-        </div>
-        <div class="card">
-          <h3>Tugas 4</h3>
-          <p>Deskripsi singkat tugas 4.</p>
-        </div>
-      </div>
-    </body>
-    </html>
-    , initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Profil Tugas</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f1f3f5;
+    }
+    .header {
+      background-color: #4a90e2;
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    .header img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 10px;
+      border: 3px solid white;
+    }
+    .header h1 {
+      margin: 10px 0 5px;
+    }
+    .header p {
+      margin: 5px 0;
+    }
+    .container {
+      max-width: 700px;
+      margin: 20px auto;
+      padding: 0 20px;
+    }
+    .card {
+      background-color: white;
+      padding: 15px 20px;
+      margin-bottom: 15px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      cursor: pointer;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    }
+    .card h3 {
+      margin: 0 0 8px;
+    }
+    .card a {
+      text-decoration: none;
+      color: inherit;
+      display: block;
+    }
+  </style>
 </head>
 <body>
-    
+  <div class="header">
+    <img src="Yuni01.jpg" alt="Foto Profil" />
+    <h1>Yuliana Benga Ola</h1>
+    <p><strong>NIM:</strong> 231110029</p>
+    <p>TUGAS PENAMBAHAN NILAI UTS</p>
+  </div>
+
+  <div class="container">
+    <div class="card">
+      <a href="soal no 1.html">
+        <h3>Tugas 1</h3>
+        <p>Deskripsi singkat tugas 1.</p>
+      </a>
+    </div>
+    <div class="card">
+      <a href="soal no 2.html">
+        <h3>Tugas 2</h3>
+        <p>Deskripsi singkat tugas 2.</p>
+      </a>
+    </div>
+    <div class="card">
+      <a href="soal no 3.html">
+        <h3>Tugas 3</h3>
+        <p>Deskripsi singkat tugas 3.</p>
+      </a>
+    </div>
+    <div class="card">
+      <a href="soal no 4.html">
+        <h3>Tugas 4</h3>
+        <p>Deskripsi singkat tugas 4.</p>
+      </a>
+    </div>
+  </div>
 </body>
 </html>
